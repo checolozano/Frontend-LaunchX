@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content ="width =device-width, initial-scale=1.0">
+    <title Barbacoa el inge, desde 2022></title>
+
+</head>
+<body>
+    <header> 
+        <h1>Tacos de Barbacoa el Inge, desde 2022</h1>
+    </header>
+    <img src="Tacos de barbacoa.png" alt="Logo tacos el inge"/>
+    <section>
+        <h2>Menu</h2>
+        <h3> Tacos de barbacoa</h3>
+        <ul>
+            <li>blandos .................................. $15</li>
+            <li>Medios  .................................. $18</li>
+            <li>Dorados ................................. $20</li>
+        </ul>
+
+        <h3>Platos</h3>
+        <dl>
+            <dt>Orden   ...................................... $150</dt>
+            <dd>- Medio kilo de barbacoa con consome y tortillas</dd>
+            <dt>Lonches .................................. $45</dt>
+            <dd>- Lonche de barbacoa con o sin bañarse en consome</dd>
+            <dt>Borrego .................................. $200</dt>
+            <dd>- Orden de barbacoa de borrego</dd>
+        </dl>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <td>Nombre</td>
+                <td>Ubicacion</td>
+                <td>Horarios</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/pYw1ZTCs1RvQyVKX7" target="_blank">De Las Violetas 4930</td>
+                <td>L - D 9 am - 5 pm</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/p37JYEjtZBqcaPk98" target="_blank">C. Nicolás Régules 481</td>
+                <td>MC - D 9 am - 5 pm</td>
+            </tr>
+            <tr>
+                <td>Este</td>
+                <td><a href="https://goo.gl/maps/j1wKLGgcrX6DTh1k8" target="_blank">Calz. Circunvalación Pte 66</td>
+                <td>S - D 9 am - 2 pm</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+    <section>
+        <h2>Pedidos</h2>
+        <h3> Haz tu pedido</h3>
+        <form>
+            <p>De que puesto quieres?</p>
+            <select>
+                <option value="Norte">Norte</option>
+                <option value="Sur">Sur</option>
+                <option value="Este">Este</option>   
+            </select>
+
+            <p>Cual es su pedido?</p>
+                <input type="checkbox" id = "blandos"name ="blandos" value="blandos">
+                <label for="blandos">Blandos</label>
+                <input type = "number" id="Blandosnumber" placeholder="Cuantos?"> <br>
+                <input type="checkbox" id = "Medios"name ="Medios" value="Medios">
+                <label for="Medios">Medios</label>
+                <input type = "number" id="Mediosnumber" placeholder="Cuantos?"> <br>
+                <input type="checkbox" id = "Dorados"name ="Dorados" value="Dorados">
+                <label for="Dorados">Dorados</label>
+                <input type = "number" id="Doradosnumber" placeholder="Cuantos?"> <br>
+
+            <br><br>
+            <label for="Nombre">Nombre: </label><br>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Tu nombre?">
+            <br><br>
+            <label for="Telefono">Telefono: </label><br>
+            <input type="text" id="Telefono" name="Telefono" placeholder="Tu Telefono?">
+            <br><br>
+            <label for="Direccion">Direccion: </label><br>
+            <input type="text" id="Direccion" name="Direccion" placeholder="Tu Direccion?">
+            <br>
+            <button type="submit">Realizar Pedido</button> 
+
+
+        </form>
+    </section>
+</body>
+</html>
